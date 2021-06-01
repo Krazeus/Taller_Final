@@ -5,7 +5,7 @@
              x:Class="Taller_Final.Ubicanos">
     <ScrollView>
         <StackLayout>
-            <Map:Map MapType="Street">  </Map:Map>
+            <Map:Map x:Name="Mapa" MapType="Street" WidthRequest="400" HeightRequest="700">  </Map:Map>
         </StackLayout>
     </ScrollView>
 </ContentPage>

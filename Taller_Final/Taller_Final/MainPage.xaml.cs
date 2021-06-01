@@ -25,7 +25,7 @@ namespace Taller_Final
             {
             new Menu{ Page = new Home(), MenuTitle ="Home"},
             new Menu{ Page = new Cuenta(), MenuTitle ="Cuenta"},
-            new Menu{ Page = new Contactanos(), MenuTitle ="Contactanos"},
+            //new Menu{ Page = new Contactanos(), MenuTitle ="Contactanos"},
             new Menu{ Page = new Ubicanos(), MenuTitle ="Ubicanos"},
             };
             ListMenu.ItemsSource = Menu;
