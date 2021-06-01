@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller_Final.Cuenta">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="Fondo.jpg" Aspect="AspectFill"></Image>
+            <BoxView Color="LightBlue" Opacity="0.8"></BoxView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="Icon.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,0"></Image>
+                <StackLayout Grid.Row="1" Padding="30,20">
+                <Entry Placeholder="Correo electronico" PlaceholderColor="White"></Entry>
+                <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True"></Entry>
+                    <Button Text="INICIAR SESIÓN" BackgroundColor="WHITE" BorderRadius="20" TextColor="LightBlue"></Button>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="¿Recuperar contraseña?"></Label>
+                        <Label Text="Registrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold"></Label>
+
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
